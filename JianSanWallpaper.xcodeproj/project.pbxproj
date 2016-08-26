@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D442C415114979189D97B09 /* Pods_JianSanWallpaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC160AA1F2641C8B0211307 /* Pods_JianSanWallpaper.framework */; };
+		B20643B11D7002B6002788C1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B20643B31D7002B6002788C1 /* Localizable.strings */; };
+		B20953431CD2132800036163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20952DA1CD2132800036163 /* AppDelegate.swift */; };
+		B20953441CD2132800036163 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20952DB1CD2132800036163 /* Common.swift */; };
+		B20953461CD2132800036163 /* JFHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20952E01CD2132800036163 /* JFHomeViewController.swift */; };
+		B20953481CD2132800036163 /* JFCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20952E31CD2132800036163 /* JFCategoryModel.swift */; };
+		B209534E1CD2132800036163 /* JFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20952EC1CD2132800036163 /* JFNavigationController.swift */; };
+		B20953511CD2132800036163 /* JFFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20952F11CD2132800036163 /* JFFeedbackViewController.swift */; };
+		B209535C1CD2132800036163 /* JFNetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20953001CD2132800036163 /* JFNetworkTools.swift */; };
+		B209535D1CD2132800036163 /* JFContextItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20953031CD2132800036163 /* JFContextItem.swift */; };
+		B209535E1CD2132800036163 /* JFContextSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20953041CD2132800036163 /* JFContextSheet.swift */; };
+		B20D08E91D47075100008A19 /* JFSideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D08E81D47075100008A19 /* JFSideView.swift */; };
+		B20D08EB1D47075900008A19 /* JFSideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20D08EA1D47075900008A19 /* JFSideView.xib */; };
+		B20D08F31D471FC200008A19 /* JFWallpaperDismissAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D08ED1D471FC200008A19 /* JFWallpaperDismissAnimation.swift */; };
+		B20D08F41D471FC200008A19 /* JFWallpaperModalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D08EE1D471FC200008A19 /* JFWallpaperModalAnimation.swift */; };
+		B20D08F51D471FC200008A19 /* JFWallpaperPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D08EF1D471FC200008A19 /* JFWallpaperPresentationController.swift */; };
+		B20D08FA1D473DAB00008A19 /* JFSideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D08F91D473DAB00008A19 /* JFSideButton.swift */; };
+		B20D08FC1D47556E00008A19 /* JFCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D08FB1D47556E00008A19 /* JFCollectionViewController.swift */; };
+		B20D09031D4766E700008A19 /* JFCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D09011D4766E700008A19 /* JFCollectionCell.swift */; };
+		B20D09041D4766E700008A19 /* JFCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20D09021D4766E700008A19 /* JFCollectionCell.xib */; };
+		B21062421D7067B100A592F2 /* GoogleService-Info .plist in Resources */ = {isa = PBXBuildFile; fileRef = B21062411D7067B100A592F2 /* GoogleService-Info .plist */; };
+		B21062441D706B5800A592F2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B21062431D706B5800A592F2 /* Launch Screen.storyboard */; };
+		B21062471D708FD500A592F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B21062491D708FD500A592F2 /* InfoPlist.strings */; };
+		B24B96EA1D45BA95004B8BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24B96E81D45BA95004B8BBE /* Assets.xcassets */; };
+		B24B96EE1D45C069004B8BBE /* JFWallpaperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24B96EC1D45C069004B8BBE /* JFWallpaperCell.swift */; };
+		B24B96EF1D45C069004B8BBE /* JFWallpaperCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B24B96ED1D45C069004B8BBE /* JFWallpaperCell.xib */; };
+		B24CA82B1D70095900AF2507 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B24CA82A1D70095900AF2507 /* Info.plist */; };
+		B24CA82D1D701E6C00AF2507 /* JFTopLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24CA82C1D701E6C00AF2507 /* JFTopLabel.swift */; };
+		B29FF5071D5ED22F001EB96C /* JFAdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29FF5061D5ED22F001EB96C /* JFAdManager.swift */; };
+		B29FF5091D5EE24A001EB96C /* JFTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29FF5081D5EE24A001EB96C /* JFTipView.swift */; };
+		B2BB28DA1CD1C02100CE4DC1 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BB28D91CD1C02100CE4DC1 /* libicucore.tbd */; };
+		B2BB28DC1CD1C03200CE4DC1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BB28DB1CD1C03200CE4DC1 /* libz.tbd */; };
+		B2BB28DE1CD1C03A00CE4DC1 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BB28DD1CD1C03A00CE4DC1 /* libstdc++.tbd */; };
+		B2BB28E41CD1C06600CE4DC1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BB28E31CD1C06600CE4DC1 /* libsqlite3.tbd */; };
+		B2BB29121CD1D72400CE4DC1 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BB29111CD1D72400CE4DC1 /* libiconv.tbd */; };
+		B2E288361D43315800745A3F /* JFDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E288341D43315800745A3F /* JFDetailViewController.swift */; };
+		B2E288391D43317900745A3F /* JFWallPaperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E288381D43317900745A3F /* JFWallPaperModel.swift */; };
+		B2E2883D1D43323D00745A3F /* JFWallPaperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E2883C1D43323D00745A3F /* JFWallPaperTool.m */; };
+		B2E2884C1D43363000745A3F /* JFPopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E2884B1D43363000745A3F /* JFPopularViewController.swift */; };
+		B2E3003F1CD882B100E4DCA1 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FF91B61CCFC84A0020C974 /* Photos.framework */; };
+		B2FE2FD21CD33CDA0013FAEE /* JFProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FE2FD11CD33CDA0013FAEE /* JFProgressHUD.swift */; };
+		B2FE2FD41CD33CE60013FAEE /* JFFMDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FE2FD31CD33CE60013FAEE /* JFFMDBManager.swift */; };
+		B2FE2FE41CD33F3B0013FAEE /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FE2FD71CD33F3B0013FAEE /* FMDatabase.m */; };
+		B2FE2FE51CD33F3B0013FAEE /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FE2FD91CD33F3B0013FAEE /* FMDatabaseAdditions.m */; };
+		B2FE2FE61CD33F3B0013FAEE /* FMDatabaseAdditionsVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FE2FDA1CD33F3B0013FAEE /* FMDatabaseAdditionsVariadic.swift */; };
+		B2FE2FE71CD33F3B0013FAEE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FE2FDC1CD33F3B0013FAEE /* FMDatabasePool.m */; };
+		B2FE2FE81CD33F3B0013FAEE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FE2FDE1CD33F3B0013FAEE /* FMDatabaseQueue.m */; };
+		B2FE2FE91CD33F3B0013FAEE /* FMDatabaseVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FE2FDF1CD33F3B0013FAEE /* FMDatabaseVariadic.swift */; };
+		B2FE2FEA1CD33F3B0013FAEE /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FE2FE21CD33F3B0013FAEE /* FMResultSet.m */; };
+		B2FE2FEB1CD33F3B0013FAEE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2FE2FE31CD33F3B0013FAEE /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		023E4CC996272EA5E0D22DF0 /* Pods-JianSanWallpaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JianSanWallpaper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JianSanWallpaper/Pods-JianSanWallpaper.debug.xcconfig"; sourceTree = "<group>"; };
+		6BC160AA1F2641C8B0211307 /* Pods_JianSanWallpaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JianSanWallpaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A579010E1C62E31700B89DB7 /* JianSanWallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JianSanWallpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BF066DDC38B7EA4D087027 /* Pods-JianSanWallpaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JianSanWallpaper.release.xcconfig"; path = "Pods/Target Support Files/Pods-JianSanWallpaper/Pods-JianSanWallpaper.release.xcconfig"; sourceTree = "<group>"; };
+		B20643B21D7002B6002788C1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B20643B61D7002D0002788C1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B20643B71D7002E1002788C1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B20643BA1D700316002788C1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B20643BB1D700327002788C1 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B20643BC1D700336002788C1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B20643BD1D70033E002788C1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B20643C21D7007FD002788C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B20643C31D700838002788C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B20952DA1CD2132800036163 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B20952DB1CD2132800036163 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		B20952E01CD2132800036163 /* JFHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFHomeViewController.swift; sourceTree = "<group>"; };
+		B20952E31CD2132800036163 /* JFCategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFCategoryModel.swift; sourceTree = "<group>"; };
+		B20952EC1CD2132800036163 /* JFNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFNavigationController.swift; sourceTree = "<group>"; };
+		B20952F11CD2132800036163 /* JFFeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFFeedbackViewController.swift; sourceTree = "<group>"; };
+		B20953001CD2132800036163 /* JFNetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFNetworkTools.swift; sourceTree = "<group>"; };
+		B20953031CD2132800036163 /* JFContextItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFContextItem.swift; sourceTree = "<group>"; };
+		B20953041CD2132800036163 /* JFContextSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFContextSheet.swift; sourceTree = "<group>"; };
+		B20D08E81D47075100008A19 /* JFSideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFSideView.swift; sourceTree = "<group>"; };
+		B20D08EA1D47075900008A19 /* JFSideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFSideView.xib; sourceTree = "<group>"; };
+		B20D08ED1D471FC200008A19 /* JFWallpaperDismissAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFWallpaperDismissAnimation.swift; sourceTree = "<group>"; };
+		B20D08EE1D471FC200008A19 /* JFWallpaperModalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFWallpaperModalAnimation.swift; sourceTree = "<group>"; };
+		B20D08EF1D471FC200008A19 /* JFWallpaperPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFWallpaperPresentationController.swift; sourceTree = "<group>"; };
+		B20D08F91D473DAB00008A19 /* JFSideButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFSideButton.swift; sourceTree = "<group>"; };
+		B20D08FB1D47556E00008A19 /* JFCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFCollectionViewController.swift; sourceTree = "<group>"; };
+		B20D09011D4766E700008A19 /* JFCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFCollectionCell.swift; sourceTree = "<group>"; };
+		B20D09021D4766E700008A19 /* JFCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFCollectionCell.xib; sourceTree = "<group>"; };
+		B21062411D7067B100A592F2 /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info .plist"; sourceTree = "<group>"; };
+		B21062431D706B5800A592F2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B21062481D708FD500A592F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B210624A1D708FDB00A592F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B210624B1D708FDC00A592F2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		B210624C1D708FDD00A592F2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		B210624D1D708FDE00A592F2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B210624E1D708FDE00A592F2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B210624F1D708FDF00A592F2 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B21062501D708FDF00A592F2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B21062511D708FE000A592F2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B24816651CCFD0BB0056D66E /* PhotoLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotoLibrary.framework; path = ../../../../Applications/Xcode6.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/PhotoLibrary.framework; sourceTree = "<group>"; };
+		B24B96E81D45BA95004B8BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B24B96EC1D45C069004B8BBE /* JFWallpaperCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFWallpaperCell.swift; sourceTree = "<group>"; };
+		B24B96ED1D45C069004B8BBE /* JFWallpaperCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFWallpaperCell.xib; sourceTree = "<group>"; };
+		B24CA82A1D70095900AF2507 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24CA82C1D701E6C00AF2507 /* JFTopLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFTopLabel.swift; sourceTree = "<group>"; };
+		B29FF5061D5ED22F001EB96C /* JFAdManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFAdManager.swift; sourceTree = "<group>"; };
+		B29FF5081D5EE24A001EB96C /* JFTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFTipView.swift; sourceTree = "<group>"; };
+		B2BB28D91CD1C02100CE4DC1 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		B2BB28DB1CD1C03200CE4DC1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B2BB28DD1CD1C03A00CE4DC1 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		B2BB28DF1CD1C04200CE4DC1 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		B2BB28E11CD1C05C00CE4DC1 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B2BB28E31CD1C06600CE4DC1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B2BB28E51CD1C27900CE4DC1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B2BB290D1CD1D70A00CE4DC1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B2BB290F1CD1D71A00CE4DC1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B2BB29111CD1D72400CE4DC1 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		B2BB29131CD1D73400CE4DC1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B2E288341D43315800745A3F /* JFDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFDetailViewController.swift; sourceTree = "<group>"; };
+		B2E288381D43317900745A3F /* JFWallPaperModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFWallPaperModel.swift; sourceTree = "<group>"; };
+		B2E2883B1D43323D00745A3F /* JFWallPaperTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFWallPaperTool.h; sourceTree = "<group>"; };
+		B2E2883C1D43323D00745A3F /* JFWallPaperTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFWallPaperTool.m; sourceTree = "<group>"; };
+		B2E288401D43329400745A3F /* JianSan-Wallpaper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JianSan-Wallpaper-Bridging-Header.h"; sourceTree = "<group>"; };
+		B2E2884B1D43363000745A3F /* JFPopularViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFPopularViewController.swift; sourceTree = "<group>"; };
+		B2FE2FD11CD33CDA0013FAEE /* JFProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFProgressHUD.swift; sourceTree = "<group>"; };
+		B2FE2FD31CD33CE60013FAEE /* JFFMDBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFFMDBManager.swift; sourceTree = "<group>"; };
+		B2FE2FD61CD33F3B0013FAEE /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		B2FE2FD71CD33F3B0013FAEE /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		B2FE2FD81CD33F3B0013FAEE /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		B2FE2FD91CD33F3B0013FAEE /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		B2FE2FDA1CD33F3B0013FAEE /* FMDatabaseAdditionsVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseAdditionsVariadic.swift; sourceTree = "<group>"; };
+		B2FE2FDB1CD33F3B0013FAEE /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		B2FE2FDC1CD33F3B0013FAEE /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		B2FE2FDD1CD33F3B0013FAEE /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B2FE2FDE1CD33F3B0013FAEE /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		B2FE2FDF1CD33F3B0013FAEE /* FMDatabaseVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseVariadic.swift; sourceTree = "<group>"; };
+		B2FE2FE01CD33F3B0013FAEE /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		B2FE2FE11CD33F3B0013FAEE /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		B2FE2FE21CD33F3B0013FAEE /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		B2FE2FE31CD33F3B0013FAEE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2FF91B61CCFC84A0020C974 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A579010B1C62E31600B89DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E3003F1CD882B100E4DCA1 /* Photos.framework in Frameworks */,
+				B2BB29121CD1D72400CE4DC1 /* libiconv.tbd in Frameworks */,
+				B2BB28E41CD1C06600CE4DC1 /* libsqlite3.tbd in Frameworks */,
+				B2BB28DE1CD1C03A00CE4DC1 /* libstdc++.tbd in Frameworks */,
+				B2BB28DC1CD1C03200CE4DC1 /* libz.tbd in Frameworks */,
+				B2BB28DA1CD1C02100CE4DC1 /* libicucore.tbd in Frameworks */,
+				4D442C415114979189D97B09 /* Pods_JianSanWallpaper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FC0A79DAF344AF3346BB07E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				023E4CC996272EA5E0D22DF0 /* Pods-JianSanWallpaper.debug.xcconfig */,
+				A8BF066DDC38B7EA4D087027 /* Pods-JianSanWallpaper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A57901051C62E31600B89DB7 = {
+			isa = PBXGroup;
+			children = (
+				B20952D51CD2132800036163 /* JianSanWallpaper */,
+				A579010F1C62E31700B89DB7 /* Products */,
+				EC8ECE63E49030240D9789D8 /* Frameworks */,
+				1FC0A79DAF344AF3346BB07E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A579010F1C62E31700B89DB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A579010E1C62E31700B89DB7 /* JianSanWallpaper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20952D51CD2132800036163 /* JianSanWallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				B21062431D706B5800A592F2 /* Launch Screen.storyboard */,
+				B24B96E81D45BA95004B8BBE /* Assets.xcassets */,
+				B24CA82A1D70095900AF2507 /* Info.plist */,
+				B21062411D7067B100A592F2 /* GoogleService-Info .plist */,
+				B21062491D708FD500A592F2 /* InfoPlist.strings */,
+				B20643B31D7002B6002788C1 /* Localizable.strings */,
+				B20952D71CD2132800036163 /* Classes */,
+			);
+			path = JianSanWallpaper;
+			sourceTree = "<group>";
+		};
+		B20952D71CD2132800036163 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B20952D81CD2132800036163 /* Application */,
+				B20952FF1CD2132800036163 /* Utils */,
+				B20953011CD2132800036163 /* Vender */,
+				B20952DC1CD2132800036163 /* Module */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B20952D81CD2132800036163 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B20952DA1CD2132800036163 /* AppDelegate.swift */,
+				B20952DB1CD2132800036163 /* Common.swift */,
+				B2E288401D43329400745A3F /* JianSan-Wallpaper-Bridging-Header.h */,
+				B29FF5061D5ED22F001EB96C /* JFAdManager.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B20952DC1CD2132800036163 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				B20952EA1CD2132800036163 /* Main */,
+				B20952DD1CD2132800036163 /* Home */,
+				B20952ED1CD2132800036163 /* Profile */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		B20952DD1CD2132800036163 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B20952DE1CD2132800036163 /* Controller */,
+				B20952E21CD2132800036163 /* Model */,
+				B20952E51CD2132800036163 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B20952DE1CD2132800036163 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B20952E01CD2132800036163 /* JFHomeViewController.swift */,
+				B2E2884B1D43363000745A3F /* JFPopularViewController.swift */,
+				B2E288341D43315800745A3F /* JFDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B20952E21CD2132800036163 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2E288381D43317900745A3F /* JFWallPaperModel.swift */,
+				B20952E31CD2132800036163 /* JFCategoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B20952E51CD2132800036163 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B24CA82C1D701E6C00AF2507 /* JFTopLabel.swift */,
+				B24B96EC1D45C069004B8BBE /* JFWallpaperCell.swift */,
+				B24B96ED1D45C069004B8BBE /* JFWallpaperCell.xib */,
+				B20D08E81D47075100008A19 /* JFSideView.swift */,
+				B20D08EA1D47075900008A19 /* JFSideView.xib */,
+				B20D08F91D473DAB00008A19 /* JFSideButton.swift */,
+				B29FF5081D5EE24A001EB96C /* JFTipView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B20952EA1CD2132800036163 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B20D08EC1D471FC200008A19 /* Transition */,
+				B20952EB1CD2132800036163 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B20952EB1CD2132800036163 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B20952EC1CD2132800036163 /* JFNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B20952ED1CD2132800036163 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B20952EE1CD2132800036163 /* Controller */,
+				B20952F61CD2132800036163 /* Model */,
+				B20952FD1CD2132800036163 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B20952EE1CD2132800036163 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B20D08FB1D47556E00008A19 /* JFCollectionViewController.swift */,
+				B20952F11CD2132800036163 /* JFFeedbackViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B20952F61CD2132800036163 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B20952FD1CD2132800036163 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B20D09011D4766E700008A19 /* JFCollectionCell.swift */,
+				B20D09021D4766E700008A19 /* JFCollectionCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B20952FF1CD2132800036163 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B20953001CD2132800036163 /* JFNetworkTools.swift */,
+				B2FE2FD11CD33CDA0013FAEE /* JFProgressHUD.swift */,
+				B2FE2FD31CD33CE60013FAEE /* JFFMDBManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B20953011CD2132800036163 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				B2E2883A1D43323D00745A3F /* JFWallPaperTool */,
+				B2FE2FD51CD33F3B0013FAEE /* fmdb */,
+				B20953021CD2132800036163 /* JFContextSheet */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		B20953021CD2132800036163 /* JFContextSheet */ = {
+			isa = PBXGroup;
+			children = (
+				B20953031CD2132800036163 /* JFContextItem.swift */,
+				B20953041CD2132800036163 /* JFContextSheet.swift */,
+			);
+			path = JFContextSheet;
+			sourceTree = "<group>";
+		};
+		B20D08EC1D471FC200008A19 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				B20D08ED1D471FC200008A19 /* JFWallpaperDismissAnimation.swift */,
+				B20D08EE1D471FC200008A19 /* JFWallpaperModalAnimation.swift */,
+				B20D08EF1D471FC200008A19 /* JFWallpaperPresentationController.swift */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		B2E2883A1D43323D00745A3F /* JFWallPaperTool */ = {
+			isa = PBXGroup;
+			children = (
+				B2E2883B1D43323D00745A3F /* JFWallPaperTool.h */,
+				B2E2883C1D43323D00745A3F /* JFWallPaperTool.m */,
+			);
+			path = JFWallPaperTool;
+			sourceTree = "<group>";
+		};
+		B2FE2FD51CD33F3B0013FAEE /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				B2FE2FD61CD33F3B0013FAEE /* FMDatabase.h */,
+				B2FE2FD71CD33F3B0013FAEE /* FMDatabase.m */,
+				B2FE2FD81CD33F3B0013FAEE /* FMDatabaseAdditions.h */,
+				B2FE2FD91CD33F3B0013FAEE /* FMDatabaseAdditions.m */,
+				B2FE2FDA1CD33F3B0013FAEE /* FMDatabaseAdditionsVariadic.swift */,
+				B2FE2FDB1CD33F3B0013FAEE /* FMDatabasePool.h */,
+				B2FE2FDC1CD33F3B0013FAEE /* FMDatabasePool.m */,
+				B2FE2FDD1CD33F3B0013FAEE /* FMDatabaseQueue.h */,
+				B2FE2FDE1CD33F3B0013FAEE /* FMDatabaseQueue.m */,
+				B2FE2FDF1CD33F3B0013FAEE /* FMDatabaseVariadic.swift */,
+				B2FE2FE01CD33F3B0013FAEE /* FMDB.h */,
+				B2FE2FE11CD33F3B0013FAEE /* FMResultSet.h */,
+				B2FE2FE21CD33F3B0013FAEE /* FMResultSet.m */,
+				B2FE2FE31CD33F3B0013FAEE /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		EC8ECE63E49030240D9789D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2BB29131CD1D73400CE4DC1 /* CoreTelephony.framework */,
+				B2BB29111CD1D72400CE4DC1 /* libiconv.tbd */,
+				B2BB290F1CD1D71A00CE4DC1 /* Security.framework */,
+				B2BB290D1CD1D70A00CE4DC1 /* SystemConfiguration.framework */,
+				B2BB28E51CD1C27900CE4DC1 /* MessageUI.framework */,
+				B2BB28E31CD1C06600CE4DC1 /* libsqlite3.tbd */,
+				B2BB28E11CD1C05C00CE4DC1 /* ImageIO.framework */,
+				B2BB28DF1CD1C04200CE4DC1 /* JavaScriptCore.framework */,
+				B2BB28DD1CD1C03A00CE4DC1 /* libstdc++.tbd */,
+				B2BB28DB1CD1C03200CE4DC1 /* libz.tbd */,
+				B2BB28D91CD1C02100CE4DC1 /* libicucore.tbd */,
+				B24816651CCFD0BB0056D66E /* PhotoLibrary.framework */,
+				B2FF91B61CCFC84A0020C974 /* Photos.framework */,
+				6BC160AA1F2641C8B0211307 /* Pods_JianSanWallpaper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A579010D1C62E31600B89DB7 /* JianSanWallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57901201C62E31700B89DB7 /* Build configuration list for PBXNativeTarget "JianSanWallpaper" */;
+			buildPhases = (
+				062D3DF05847FED660015FDE /* [CP] Check Pods Manifest.lock */,
+				A579010A1C62E31600B89DB7 /* Sources */,
+				A579010B1C62E31600B89DB7 /* Frameworks */,
+				A579010C1C62E31600B89DB7 /* Resources */,
+				18F7F8B0B2A7F7E51CAA5D40 /* [CP] Embed Pods Frameworks */,
+				24CAB4735B477873A0641BA7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JianSanWallpaper;
+			productName = JianSanWallpaper;
+			productReference = A579010E1C62E31700B89DB7 /* JianSanWallpaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A57901061C62E31600B89DB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JF;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "六阿哥";
+				TargetAttributes = {
+					A579010D1C62E31600B89DB7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A57901091C62E31600B89DB7 /* Build configuration list for PBXProject "JianSanWallpaper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+				ru,
+				de,
+				it,
+				ja,
+				fr,
+			);
+			mainGroup = A57901051C62E31600B89DB7;
+			productRefGroup = A579010F1C62E31700B89DB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A579010D1C62E31600B89DB7 /* JianSanWallpaper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A579010C1C62E31600B89DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24B96EF1D45C069004B8BBE /* JFWallpaperCell.xib in Resources */,
+				B24B96EA1D45BA95004B8BBE /* Assets.xcassets in Resources */,
+				B21062421D7067B100A592F2 /* GoogleService-Info .plist in Resources */,
+				B2FE2FEB1CD33F3B0013FAEE /* Info.plist in Resources */,
+				B20643B11D7002B6002788C1 /* Localizable.strings in Resources */,
+				B21062441D706B5800A592F2 /* Launch Screen.storyboard in Resources */,
+				B20D09041D4766E700008A19 /* JFCollectionCell.xib in Resources */,
+				B24CA82B1D70095900AF2507 /* Info.plist in Resources */,
+				B20D08EB1D47075900008A19 /* JFSideView.xib in Resources */,
+				B21062471D708FD500A592F2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		062D3DF05847FED660015FDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		18F7F8B0B2A7F7E51CAA5D40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JianSanWallpaper/Pods-JianSanWallpaper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24CAB4735B477873A0641BA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JianSanWallpaper/Pods-JianSanWallpaper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A579010A1C62E31600B89DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20953431CD2132800036163 /* AppDelegate.swift in Sources */,
+				B2FE2FD21CD33CDA0013FAEE /* JFProgressHUD.swift in Sources */,
+				B20953481CD2132800036163 /* JFCategoryModel.swift in Sources */,
+				B2E288361D43315800745A3F /* JFDetailViewController.swift in Sources */,
+				B29FF5071D5ED22F001EB96C /* JFAdManager.swift in Sources */,
+				B209534E1CD2132800036163 /* JFNavigationController.swift in Sources */,
+				B20953511CD2132800036163 /* JFFeedbackViewController.swift in Sources */,
+				B2E288391D43317900745A3F /* JFWallPaperModel.swift in Sources */,
+				B2FE2FE81CD33F3B0013FAEE /* FMDatabaseQueue.m in Sources */,
+				B2FE2FD41CD33CE60013FAEE /* JFFMDBManager.swift in Sources */,
+				B20D08E91D47075100008A19 /* JFSideView.swift in Sources */,
+				B2E2884C1D43363000745A3F /* JFPopularViewController.swift in Sources */,
+				B209535C1CD2132800036163 /* JFNetworkTools.swift in Sources */,
+				B20D08F31D471FC200008A19 /* JFWallpaperDismissAnimation.swift in Sources */,
+				B24B96EE1D45C069004B8BBE /* JFWallpaperCell.swift in Sources */,
+				B2FE2FEA1CD33F3B0013FAEE /* FMResultSet.m in Sources */,
+				B20D09031D4766E700008A19 /* JFCollectionCell.swift in Sources */,
+				B24CA82D1D701E6C00AF2507 /* JFTopLabel.swift in Sources */,
+				B209535E1CD2132800036163 /* JFContextSheet.swift in Sources */,
+				B20953441CD2132800036163 /* Common.swift in Sources */,
+				B20D08FC1D47556E00008A19 /* JFCollectionViewController.swift in Sources */,
+				B2E2883D1D43323D00745A3F /* JFWallPaperTool.m in Sources */,
+				B2FE2FE41CD33F3B0013FAEE /* FMDatabase.m in Sources */,
+				B2FE2FE51CD33F3B0013FAEE /* FMDatabaseAdditions.m in Sources */,
+				B20953461CD2132800036163 /* JFHomeViewController.swift in Sources */,
+				B2FE2FE91CD33F3B0013FAEE /* FMDatabaseVariadic.swift in Sources */,
+				B20D08F51D471FC200008A19 /* JFWallpaperPresentationController.swift in Sources */,
+				B209535D1CD2132800036163 /* JFContextItem.swift in Sources */,
+				B2FE2FE61CD33F3B0013FAEE /* FMDatabaseAdditionsVariadic.swift in Sources */,
+				B29FF5091D5EE24A001EB96C /* JFTipView.swift in Sources */,
+				B20D08F41D471FC200008A19 /* JFWallpaperModalAnimation.swift in Sources */,
+				B20D08FA1D473DAB00008A19 /* JFSideButton.swift in Sources */,
+				B2FE2FE71CD33F3B0013FAEE /* FMDatabasePool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B20643B31D7002B6002788C1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20643B21D7002B6002788C1 /* zh-Hans */,
+				B20643B61D7002D0002788C1 /* zh-Hant */,
+				B20643B71D7002E1002788C1 /* ru */,
+				B20643BA1D700316002788C1 /* de */,
+				B20643BB1D700327002788C1 /* it */,
+				B20643BC1D700336002788C1 /* ja */,
+				B20643BD1D70033E002788C1 /* fr */,
+				B20643C21D7007FD002788C1 /* en */,
+				B20643C31D700838002788C1 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		B21062491D708FD500A592F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B21062481D708FD500A592F2 /* Base */,
+				B210624A1D708FDB00A592F2 /* en */,
+				B210624B1D708FDC00A592F2 /* zh-Hans */,
+				B210624C1D708FDD00A592F2 /* zh-Hant */,
+				B210624D1D708FDE00A592F2 /* ru */,
+				B210624E1D708FDE00A592F2 /* de */,
+				B210624F1D708FDF00A592F2 /* it */,
+				B21062501D708FDF00A592F2 /* ja */,
+				B21062511D708FE000A592F2 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A579011E1C62E31700B89DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A579011F1C62E31700B89DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A57901211C62E31700B89DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 023E4CC996272EA5E0D22DF0 /* Pods-JianSanWallpaper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JianSanWallpaper/Classes/Vender/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/JianSanWallpaper/Classes/Vender/GoogleMobileAdsSdk",
+				);
+				INFOPLIST_FILE = JianSanWallpaper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JianSanWallpaper/Classes/Vender/UMSocial_Sdk_5.1",
+					"$(PROJECT_DIR)/JianSanWallpaper/Classes/Vender/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
+					"$(PROJECT_DIR)/JianSanWallpaper/Classes/Vender/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/JianSanWallpaper/Classes/Vender/UMSocial_Sdk_Extra_Frameworks/Wechat",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"YYCache\"",
+					"-framework",
+					"\"YYImage\"",
+					"-framework",
+					"\"YYWebImage\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.6ag.wallpaper;
+				PRODUCT_NAME = JianSanWallpaper;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/JianSanWallpaper/Classes/Application/JianSan-Wallpaper-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A57901221C62E31700B89DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BF066DDC38B7EA4D087027 /* Pods-JianSanWallpaper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JianSanWallpaper/Classes/Vender/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/JianSanWallpaper/Classes/Vender/GoogleMobileAdsSdk",
+				);
+				INFOPLIST_FILE = JianSanWallpaper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JianSanWallpaper/Classes/Vender/UMSocial_Sdk_5.1",
+					"$(PROJECT_DIR)/JianSanWallpaper/Classes/Vender/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
+					"$(PROJECT_DIR)/JianSanWallpaper/Classes/Vender/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/JianSanWallpaper/Classes/Vender/UMSocial_Sdk_Extra_Frameworks/Wechat",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"YYCache\"",
+					"-framework",
+					"\"YYImage\"",
+					"-framework",
+					"\"YYWebImage\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.6ag.wallpaper;
+				PRODUCT_NAME = JianSanWallpaper;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/JianSanWallpaper/Classes/Application/JianSan-Wallpaper-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A57901091C62E31600B89DB7 /* Build configuration list for PBXProject "JianSanWallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A579011E1C62E31700B89DB7 /* Debug */,
+				A579011F1C62E31700B89DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57901201C62E31700B89DB7 /* Build configuration list for PBXNativeTarget "JianSanWallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57901211C62E31700B89DB7 /* Debug */,
+				A57901221C62E31700B89DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A57901061C62E31600B89DB7 /* Project object */;
+}

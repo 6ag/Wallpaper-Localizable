@@ -1,0 +1,71 @@
+/* 
+  Localizable.strings
+  JianSanWallpaper
+
+  Created by zhoujianfeng on 16/8/26.
+  Copyright © 2016年 六阿哥. All rights reserved.
+*/
+
+// 详情页弹出选项
+"back" = "Rückkehr";
+"preview" = "Vorschau";
+"setting" = "Voreinstellungen";
+"download" = "Herunterladen";
+"collect" = "sammeln";
+
+// 设置壁纸选项
+"SettingLockScreen" = "Set Lock Screen Wallpaper";
+"SettingMainScreen" = "Lassen Sie den Hauptbildschirm";
+"SettingBoth" = "auch eingestellt";
+"SettingCancel" = "annulliert";
+
+// 收藏提示
+"successTip" = "Markiert";
+"failTip" = "Bevorzugte fehlgeschlagen";
+"alreadyTip" = "Er hat eine Sammlung von mehr als";
+
+// 上拉
+"pullUpRefreshingTip" = "Daten werden geladen ... mehr";
+"pullUpIdleTip" = "Ziehen Sie können laden mehr";
+"pullUpNoMoreDataTip" = "Wurden alle geladen sind";
+
+// 侧边栏动作提示
+"StartCleanup" = "Es ist klar, dass der Cache-Speicher";
+"Confirm" = "bestimmen";
+"Cancel" = "annulliert";
+"Cache" = "Caching";
+"cleanupTip" = "Sind Sie sicher, dass Sie den Cache, es zu löschen? Reinigen Sie den Cache auch bereinigen [Daten] in meiner Sammlung.";
+
+// 侧栏按钮
+"myCollection" = "Meine Favoriten";
+"cluanupCache" = "Leeren Sie den Cache";
+"feedback" = "Rückkopplung";
+
+// 详情动画提示
+"pullSlideBack" = "Oh Rückgang kann zurückkehren";
+
+// 保存提示
+"saveFail" = "Speichern fehlgeschlagen";
+"saveSuccess" = "Erfolgreich gespeichert";
+
+// 分类
+"meinv" = "Schönheit";
+"chuangyi" = "kreativ";
+"pingguo" = "Apfel";
+"shujia" = "Bücherregal";
+"tubiao" = "Symbol";
+"suiping" = "Gebrochene Bildschirm";
+"suoping" = "Bildschirm sperren";
+"feizhuliu" = "nicht-Mainstream";
+"mingxing" = "Stern";
+"fengjing" = "Landschaft";
+"katong" = "Karikatur";
+"dongman" = "Animation";
+"aiqing" = "Liebe";
+"zhiwu" = "Pflanze";
+"dongwu" = "Tier";
+"yingshi" = "Fernsehen";
+"youxi" = "Spiel";
+"tiyu" = "Sport";
+"shouhui" = "Handbemalte bemalte~~POS=HEADCOMP";
+"mingche" = "Cars";

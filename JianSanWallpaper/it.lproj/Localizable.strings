@@ -1,0 +1,71 @@
+/* 
+  Localizable.strings
+  JianSanWallpaper
+
+  Created by zhoujianfeng on 16/8/26.
+  Copyright © 2016年 六阿哥. All rights reserved.
+*/
+
+// 详情页弹出选项
+"back" = "ritorno";
+"preview" = "anteprima";
+"setting" = "Preferenze";
+"download" = "Scarica";
+"collect" = "raccogliere";
+
+// 设置壁纸选项
+"SettingLockScreen" = "Impostare lo sfondo blocco schermo";
+"SettingMainScreen" = "Lasciate che la schermata principale";
+"SettingBoth" = "impostare anche";
+"SettingCancel" = "annullato";
+
+// 收藏提示
+"successTip" = "segnalibro";
+"failTip" = "Impossibile preferita";
+"alreadyTip" = "Ha una collezione di oltre";
+
+// 上拉
+"pullUpRefreshingTip" = "Caricamento dei dati ... more";
+"pullUpIdleTip" = "Tirare in grado di caricare più";
+"pullUpNoMoreDataTip" = "Sono stati tutti caricati";
+
+// 侧边栏动作提示
+"StartCleanup" = "E 'evidente la cache";
+"Confirm" = "determinare";
+"Cancel" = "annullato";
+"Cache" = "Caching";
+"cleanupTip" = "Sei sicuro di voler cancellare la cache esso? Pulire la cache sarà anche ripulire [DATA] nella mia collezione.";
+
+// 侧栏按钮
+"myCollection" = "I miei preferiti";
+"cluanupCache" = "cancellare la cache";
+"feedback" = "retroazione";
+
+// 详情动画提示
+"pullSlideBack" = "Oh declino può tornare";
+
+// 保存提示
+"saveFail" = "Salva fallito";
+"saveSuccess" = "salvato con successo";
+
+// 分类
+"meinv" = "bellezza";
+"chuangyi" = "creativo";
+"pingguo" = "mela";
+"shujia" = "Bookshelf";
+"tubiao" = "icona";
+"suiping" = "schermo rotto";
+"suoping" = "Blocco schermo";
+"feizhuliu" = "Non-mainstream";
+"mingxing" = "stella";
+"fengjing" = "scenario";
+"katong" = "cartone animato";
+"dongman" = "animazione";
+"aiqing" = "amore";
+"zhiwu" = "impianto";
+"dongwu" = "animale";
+"yingshi" = "televisione";
+"youxi" = "gioco";
+"tiyu" = "sportivo";
+"shouhui" = "Dipinto a mano";
+"mingche" = "auto";

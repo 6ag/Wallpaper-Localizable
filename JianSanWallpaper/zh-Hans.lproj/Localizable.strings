@@ -1,0 +1,75 @@
+/* 
+  Localizable.strings
+  JianSanWallpaper
+
+  Created by zhoujianfeng on 16/8/26.
+  Copyright © 2016年 六阿哥. All rights reserved.
+ 简体中文
+*/
+
+// 详情页弹出选项
+"back" = "返回";
+"preview" = "预览";
+"setting" = "设定";
+"download" = "下载";
+"collect" = "收藏";
+
+// 设置壁纸选项
+"SettingLockScreen" = "设为锁屏壁纸";
+"SettingMainScreen" = "设为主屏幕";
+"SettingBoth" = "同时设置";
+"SettingCancel" = "取消";
+
+// 收藏提示
+"successTip" = "收藏成功";
+"failTip" = "收藏失败";
+"alreadyTip" = "已经收藏过";
+
+// 上拉
+"pullUpRefreshingTip" = "正在加载更多的数据...";
+"pullUpIdleTip" = "上拉可以加载更多";
+"pullUpNoMoreDataTip" = "已经全部加载完毕";
+
+// 侧边栏动作提示
+"StartCleanup" = "正在清理缓存";
+"Confirm" = "确定";
+"Cancel" = "取消";
+"Cache" = "缓存";
+"cleanupTip" = "您真的要清理缓存吗？清理缓存同时会清理【我的收藏】中的数据。";
+
+// 侧栏按钮
+"myCollection" = "我的收藏";
+"cluanupCache" = "清理缓存";
+"feedback" = "意见反馈";
+
+// 详情动画提示
+"pullSlideBack" = "可以下滑返回哦";
+
+// 保存提示
+"saveFail" = "保存失败";
+"saveSuccess" = "保存成功";
+
+// 分类
+"meinv" = "美女";
+"chuangyi" = "创意";
+"pingguo" = "苹果";
+"shujia" = "书架";
+"tubiao" = "图标";
+"suiping" = "碎屏";
+"suoping" = "锁屏";
+"feizhuliu" = "非主流";
+"mingxing" = "明星";
+"fengjing" = "风景";
+"katong" = "卡通";
+"dongman" = "动漫";
+"aiqing" = "爱情";
+"zhiwu" = "植物";
+"dongwu" = "动物";
+"yingshi" = "影视";
+"youxi" = "游戏";
+"tiyu" = "体育";
+"shouhui" = "手绘";
+"mingche" = "名车";
+
+
+

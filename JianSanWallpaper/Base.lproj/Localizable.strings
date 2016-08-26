@@ -1,0 +1,74 @@
+/* 
+  Localizable.strings
+  JianSanWallpaper
+
+  Created by zhoujianfeng on 16/8/26.
+  Copyright © 2016年 六阿哥. All rights reserved.
+*/
+
+// app名称
+"CFBundleDisplayName" = "wallpaper";
+
+// 详情页弹出选项
+"back" = "Back";
+"preview" = "Preview";
+"setting" = "Setting";
+"download" = "Download";
+"collect" = "Collect";
+
+// 设置壁纸选项
+"SettingLockScreen" = "Lock Screen";
+"SettingMainScreen" = "Main Screen";
+"SettingBoth" = "Both";
+"SettingCancel" = "Cancel";
+
+// 提示
+"successTip" = "Success";
+"failTip" = "Fail";
+"alreadyTip" = "Already Collect";
+
+// 上拉
+"pullUpRefreshingTip" = "Loading...";
+"pullUpIdleTip" = "Pull up to load more";
+"pullUpNoMoreDataTip" = "No more data";
+
+// 侧边栏动作提示
+"StartCleanup" = "It is clear the cache";
+"Confirm" = "determine";
+"Cancel" = "cancel";
+"Cache" = "Caching";
+"cleanupTip" = "Are you sure you want to clear the cache it? Clean the cache will also clean up [data] in my collection.";
+
+// 侧栏按钮
+"myCollection" = "collection";
+"cluanupCache" = "Clear";
+"feedback" = "Feedback";
+
+// 详情动画提示
+"pullSlideBack" = "Oh decline can return";
+
+// 保存提示
+"saveFail" = "Save failed";
+"saveSuccess" = "Saved successfully";
+
+// 分类
+"meinv" = "beauty";
+"chuangyi" = "Creative";
+"pingguo" = "apple";
+"shujia" = "bookshelf";
+"tubiao" = "icon";
+"suiping" = "Broken screen";
+"suoping" = "Lock screen";
+"feizhuliu" = "non-mainstream";
+"mingxing" = "Celebrity";
+"fengjing" = "landscape";
+"katong" = "Cartoon";
+"dongman" = "Animation";
+"aiqing" = "love";
+"zhiwu" = "plant";
+"dongwu" = "animal";
+"yingshi" = "Television";
+"youxi" = "game";
+"tiyu" = "physical education";
+"shouhui" = "Hand Painted";
+"mingche" = "Cars";

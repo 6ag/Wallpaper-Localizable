@@ -1,0 +1,72 @@
+/* 
+  Localizable.strings
+  JianSanWallpaper
+
+  Created by zhoujianfeng on 16/8/26.
+  Copyright © 2016年 六阿哥. All rights reserved.
+ 俄文
+*/
+
+// 详情页弹出选项
+"back" = "возврат";
+"preview" = "предварительный просмотр";
+"setting" = "предпочтения";
+"download" = "скачать";
+"collect" = "собирать";
+
+// 设置壁纸选项
+"SettingLockScreen" = "Установить замок обои экрана";
+"SettingMainScreen" = "Пусть главный экран";
+"SettingBoth" = "Также установлено";
+"SettingCancel" = "отменен";
+
+// 收藏提示
+"successTip" = "Отмеченный";
+"failTip" = "Любимый Ошибка";
+"alreadyTip" = "У него есть коллекция из более чем";
+
+// 上拉
+"pullUpRefreshingTip" = "Загрузка данных ... подробнее";
+"pullUpIdleTip" = "Потянуть можете загрузить более";
+"pullUpNoMoreDataTip" = "Все были загружены";
+
+// 侧边栏动作提示
+"StartCleanup" = "Понятно кэш";
+"Confirm" = "определить";
+"Cancel" = "отменен";
+"Cache" = "Кэширование";
+"cleanupTip" = "Вы уверены, что хотите очистить кэш это? Очистить кэш будет также очистить [Data] в моей коллекции.";
+
+// 侧栏按钮
+"myCollection" = "Избранные";
+"cluanupCache" = "Очистить кэш";
+"feedback" = "обратная связь";
+
+// 详情动画提示
+"pullSlideBack" = "О снижение может вернуться";
+
+// 保存提示
+"saveFail" = "Не удалось сохранить";
+"saveSuccess" = "Успешно сохранены";
+
+// 分类
+"meinv" = "красота";
+"chuangyi" = "созидательный";
+"pingguo" = "яблоко";
+"shujia" = "книжная полка";
+"tubiao" = "иконка";
+"suiping" = "Разбитый экран";
+"suoping" = "Блокировка экрана";
+"feizhuliu" = "Не связанные с основной";
+"mingxing" = "звезда";
+"fengjing" = "декорации";
+"katong" = "мультипликация";
+"dongman" = "анимация";
+"aiqing" = "любовь";
+"zhiwu" = "завод";
+"dongwu" = "животное";
+"yingshi" = "телевидение";
+"youxi" = "игра";
+"tiyu" = "спортивный";
+"shouhui" = "Ручная роспись";
+"mingche" = "автомобилей";

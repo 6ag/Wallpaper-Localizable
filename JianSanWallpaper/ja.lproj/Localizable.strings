@@ -1,0 +1,71 @@
+/* 
+  Localizable.strings
+  JianSanWallpaper
+
+  Created by zhoujianfeng on 16/8/26.
+  Copyright © 2016年 六阿哥. All rights reserved.
+*/
+
+// 详情页弹出选项
+"back" = "リターン";
+"preview" = "プレビュー";
+"setting" = "環境設定";
+"download" = "ダウンロード";
+"collect" = "集めます";
+
+// 设置壁纸选项
+"SettingLockScreen" = "ロック画面の壁紙を設定します。";
+"SettingMainScreen" = "メイン画面ましょう";
+"SettingBoth" = "また、設定";
+"SettingCancel" = "キャンセル";
+
+// 收藏提示
+"successTip" = "ブックマークさ";
+"failTip" = "お気に入りに失敗しました";
+"alreadyTip" = "彼はオーバーのコレクションを持っています";
+
+// 上拉
+"pullUpRefreshingTip" = "データを読み込んでいます...続きを";
+"pullUpIdleTip" = "よりロードすることができますプル";
+"pullUpNoMoreDataTip" = "すべてのロードされています";
+
+// 侧边栏动作提示
+"StartCleanup" = "これは、キャッシュ明らかです";
+"Confirm" = "決定します";
+"Cancel" = "キャンセル";
+"Cache" = "キャッシング";
+"cleanupTip" = "あなたはキャッシュをクリアにしてもよろしいですか？また、私のコレクションで、[データ]をクリーンアップしますキャッシュを清掃してください。";
+
+// 侧栏按钮
+"myCollection" = "お気に入り";
+"cluanupCache" = "キャッシュをクリアします";
+"feedback" = "フィードバック";
+
+// 详情动画提示
+"pullSlideBack" = "ああ減少は返すことができます";
+
+// 保存提示
+"saveFail" = "ああ減少は返すことができます...";
+"saveSuccess" = "正常に保存されました";
+
+// 分类
+"meinv" = "美しさ";
+"chuangyi" = "クリエイティブ";
+"pingguo" = "アップル";
+"shujia" = "本棚";
+"tubiao" = "アイコン";
+"suiping" = "壊れた画面";
+"suoping" = "ロック画面";
+"feizhuliu" = "非主流";
+"mingxing" = "星";
+"fengjing" = "景色";
+"katong" = "漫画";
+"dongman" = "アニメーション";
+"aiqing" = "ラブ";
+"zhiwu" = "プラント";
+"dongwu" = "動物";
+"yingshi" = "テレビ";
+"youxi" = "ゲーム";
+"tiyu" = "スポーツの";
+"shouhui" = "手描きの";
+"mingche" = "カール";

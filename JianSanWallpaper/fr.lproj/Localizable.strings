@@ -1,0 +1,71 @@
+/* 
+  Localizable.strings
+  JianSanWallpaper
+
+  Created by zhoujianfeng on 16/8/26.
+  Copyright © 2016年 六阿哥. All rights reserved.
+*/
+
+// 详情页弹出选项
+"back" = "retour";
+"preview" = "avant-première";
+"setting" = "Préférences";
+"download" = "télécharger";
+"collect" = "recueillir";
+
+// 设置壁纸选项
+"SettingLockScreen" = "Définir fond d'écran de l'écran de verrouillage";
+"SettingMainScreen" = "Laissez l'écran principal";
+"SettingBoth" = "également mis en";
+"SettingCancel" = "annulé";
+
+// 收藏提示
+"successTip" = "Bookmarked";
+"failTip" = "Échec Favorite";
+"alreadyTip" = "Il a une collection de plus";
+
+// 上拉
+"pullUpRefreshingTip" = "Chargement des données ... plus";
+"pullUpIdleTip" = "Tirez peut charger plus";
+"pullUpNoMoreDataTip" = "Ont tous été chargés";
+
+// 侧边栏动作提示
+"StartCleanup" = "Il est clair que le cache";
+"Confirm" = "déterminer";
+"Cancel" = "annulé";
+"Cache" = "Caching";
+"cleanupTip" = "Etes-vous sûr de vouloir effacer le cache il? Nettoyer le cache sera également nettoyer [les données] dans ma collection.";
+
+// 侧栏按钮
+"myCollection" = "Mes Favoris";
+"cluanupCache" = "Vider le cache";
+"feedback" = "réaction";
+
+// 详情动画提示
+"pullSlideBack" = "Oh baisse peut revenir";
+
+// 保存提示
+"saveFail" = "Echec de la sauvegarde";
+"saveSuccess" = "enregistrée avec succès";
+
+// 分类
+"meinv" = "beauté";
+"chuangyi" = "créatif";
+"pingguo" = "pomme";
+"shujia" = "étagère à livres";
+"tubiao" = "icône";
+"suiping" = "écran brisé";
+"suoping" = "Verrouiller l'écran";
+"feizhuliu" = "non-intégration";
+"mingxing" = "étoile";
+"fengjing" = "paysage";
+"katong" = "dessin animé";
+"dongman" = "animation";
+"aiqing" = "amour";
+"zhiwu" = "plante";
+"dongwu" = "animal";
+"yingshi" = "télévision";
+"youxi" = "jeu";
+"tiyu" = "sportif";
+"shouhui" = "Peints à la main";
+"mingche" = "Voitures";

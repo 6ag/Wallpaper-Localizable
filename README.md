@@ -1,0 +1,2 @@
+# Wallpaper-Localizable
+swift写的做了多国语言本地化的全类型壁纸工具app

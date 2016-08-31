@@ -64,25 +64,11 @@ let MARGIN: CGFloat = 12
 /// 全局圆角
 let CORNER_RADIUS: CGFloat = 5
 
+/// 应用id
+let APPLE_ID = "1147917306"
+
 /// 插页广告id
 let INTERSTITIAL_UNIT_ID = "ca-app-pub-3941303619697740/6565296910"
 
 /// 横幅广告id
 let BANNER_UNIT_ID = "ca-app-pub-3941303619697740/2135097318"
-
-/// 友盟APPKEY
-let UM_APP_KEY = "57219e40e0f55a1599001df7"
-
-/// 微信
-let WX_APP_ID = "wx4c6093e754a93fb1"
-let WX_APP_SECRET = "e87cc2d5206b60e20ef6b09e830515a9"
-
-/// QQ
-let QQ_APP_ID = "1105365512"
-let QQ_APP_KEY = "krvt0zS22qWqaiKW"
-
-/// 微博
-let WB_APP_KEY = "522277068"
-let WB_APP_SECRET = "2be1eacdf94fb4c17a99de0f6913eab9"
-let WB_REDIRECT_URL = "https://blog.6ag.cn"
-        

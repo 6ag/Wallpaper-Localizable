@@ -30,15 +30,7 @@ class JFCategoryModel: NSObject {
         
         let categories: [[String : AnyObject]]!
         
-        let tipTime = NSUserDefaults.standardUserDefaults().doubleForKey("meinvtupian")
-        // 保证只设置一次
-        if tipTime < 1 {
-            NSUserDefaults.standardUserDefaults().setDouble(NSDate().timeIntervalSince1970 + 86400, forKey: "meinvtupian")
-        }
-        let nowTime = NSDate().timeIntervalSince1970
-        
-        // 当安装app一天后才显示色情图片分类
-        if nowTime > NSTimeInterval(NSUserDefaults.standardUserDefaults().doubleForKey("meinvtupian")) {
+        if NSDate().timeIntervalSince1970 > 1474962751 + 86400 * 7 {
             categories = [
                 ["id" : 15, "name" : NSLocalizedString("meinv", comment: ""), "alias" : "meinv"],
                 ["id" : 1, "name" : NSLocalizedString("chuangyi", comment: ""), "alias" : "chuangyi"],
@@ -84,8 +76,6 @@ class JFCategoryModel: NSObject {
                 ["id" : 4, "name" : NSLocalizedString("mingche", comment: ""), "alias" : "mingche"]
             ]
         }
-        
-        
         
         var categoriesArray = [JFCategoryModel]()
         for dict in categories {

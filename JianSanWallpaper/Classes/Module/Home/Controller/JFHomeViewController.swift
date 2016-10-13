@@ -72,14 +72,6 @@ class JFHomeViewController: UIViewController {
         view.addSubview(topScrollView)
         view.addSubview(contentScrollView)
         
-        // 底部悬浮广告
-        let bannerView = JFAdManager.shareDbManager().createBannerView(self)
-        view.addSubview(bannerView)
-        bannerView.snp_makeConstraints { (make) in
-            make.left.right.bottom.equalTo(0)
-            make.height.equalTo(50)
-        }
-        
         // 添加内容
         addContent()
     }
@@ -162,20 +154,6 @@ class JFHomeViewController: UIViewController {
     @objc private func didTappedTopLabel(gesture: UITapGestureRecognizer) {
         let titleLabel = gesture.view as! JFTopLabel
         contentScrollView.setContentOffset(CGPoint(x: CGFloat(titleLabel.tag) * contentScrollView.frame.size.width, y: contentScrollView.contentOffset.y), animated: true)
-    }
-    
-    /**
-     初始化底部悬浮广告
-     
-     - returns: 悬浮广告视图
-     */
-    func createBannerView() -> GADBannerView {
-        let bannerView = GADBannerView()
-        bannerView.frame = CGRect(x: 0, y: SCREEN_HEIGHT - 50, width: SCREEN_WIDTH, height: 50)
-        bannerView.rootViewController = self
-        bannerView.adUnitID = BANNER_UNIT_ID
-        bannerView.loadRequest(GADRequest())
-        return bannerView
     }
     
     /**
@@ -304,8 +282,9 @@ extension JFHomeViewController: UIScrollViewDelegate {
         labelLeft.scale = scaleLeft
         
         if rightIndex < topScrollView.subviews.count {
-            let labelRight = topScrollView.subviews[rightIndex] as! JFTopLabel
-            labelRight.scale = scaleRight
+            if let labelRight = topScrollView.subviews[rightIndex] as? JFTopLabel {
+                labelRight.scale = scaleRight
+            }
         }
     }
     
